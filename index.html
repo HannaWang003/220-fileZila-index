@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>...</title>
+    <link rel="stylesheet" href="./dist/bootstrap.min.css" />
+    <link rel="stylesheet" href="./dist/locomotive-scroll.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  </head>
+  <style>
+    body{
+      background:black;
+    }
+    .Hh-10vh {
+      height: 30vw;
+      width: 30vw;
+      border:1px solid rgb(102, 255, 0); 
+      background-color:rgb(102, 255, 0);
+      a {
+        font-size: 1vw;
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+      .Hh-10vh a {
+        font-size: 3vw;
+      }
+    }
+    h1{
+      display:block;
+      width:200%;
+      padding:0 1vw;
+      font-size:20vw;      
+      mix-blend-mode: difference;
+      background:rgb(32, 32, 32);
+      color:rgb(102, 255, 0);
+      text-align:start;
+    }
+    h2{
+      color:rgb(102, 255, 0);
+      font-size:10vw;
+      font-family: 'Pacifico', cursive;
+    }
+    a{
+      text-decoration:none;
+    }
+    .col-3{
+      padding:50px;
+    }
+  </style>
+  <body data-scroll-container>
+    <header class="container" data-scroll-section style="height:100vh">
+      <div style="transform:translate(0,50%)">
+      <h2 class="text-center" data-scroll data-scroll-direction="vertical" data-scroll-speed="-10">More</h2>
+      </div>
+      <div style="transform:translate(-45%,10vh) rotate(-10deg);transform-origin:center center;mix-blend-mode: difference;">
+      <h1 class="text-center" data-scroll data-scroll-direction="horizontal" data-scroll-speed="2" style="font-family: 'Anton', sans-serif;">Hanna.Wang</h1>
+    </div>    
+    </header>
+    <main class="container" style="height: 200vh" data-scroll-section>
+      <div class="row justify-content-between">
+        <div class="col-3 card Hh-10vh m-1">
+          <a data-scroll data-scroll-direction="horizontal" href="./wubai"><h3 style="color:black">FrontEnd & BackEnd</h3></a>
+        </div>
+        <div class="col-3 card Hh-10vh m-1">
+          <a href="./bquiz">bquiz</a>
+        </div>
+        <div class="col-3 card Hh-10vh m-1">
+          <a href="./html-bootstrap/index.html"><h3 style="color:black">ZOO</h3></a>
+          <h3>Bootstrap</h3>
+        </div>
+        <div class="col-3 card Hh-10vh m-1">
+          <a href="./calendar"><h3 style="color:black">Calendar</h3></a>
+          <h3>PHP</h3>
+        </div>
+      </div>
+    </main>
+
+    <script src="./dist/bootstrap.bundle.min.js"></script>
+    <script src="./dist/bootstrap.min.js"></script>
+    <script src="./dist/jquery.min.js"></script>
+    <script src="./dist/locomotive-scroll.min.js"></script>
+
+    <script>
+      let scroll = new LocomotiveScroll({
+        el: document.querySelector("[data-scroll-container]"),
+        smooth: true,
+      });
+    </script>
+  </body>
+</html>
