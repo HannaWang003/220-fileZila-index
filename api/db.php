@@ -37,7 +37,9 @@ Class DB{
         $sql.=" $other";
         return $sql;
     }
-    private function math
+    private function math($math,$col,$where,$other){
+        $sql = "select `$col` from `$this->table`";
+    }
     
 }
 ?>
