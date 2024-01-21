@@ -85,7 +85,13 @@ function save($ary){
         if(!empty($ary)){
             $tmp = $this->a2s($ary);
         }
-        $sql.=join(" , ",tmp)
+        $sql.=join(" , ",$tmp);
+        $sql.=" where `id`='{$ary['id']}'";
+
+    }
+    else{
+$sql = "insert into `$this->table` ";
+$col = 
     }
 }
 }
