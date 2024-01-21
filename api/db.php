@@ -42,5 +42,8 @@ private function math($math,$col,$where,$other){
     $sql = $this->sql_all($sql,$where,$other);
     return $this->pdo->query($sql)->fetchColumn();
 }
+function find($where){
+    $sql = "select * from $this->table";
+    }
 }
 ?>
