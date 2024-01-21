@@ -43,10 +43,9 @@ private function math($math,$col,$where,$other){
     return $this->pdo->query($sql)->fetchColumn();
 }
 function find($where){
-    $sql = "select * from $this->table";
+    $sql = "select * from $this->table ";
     if(is_array($where)){
-        $sql.=" where ".join(" && ",$this->a2s($where));
-
+        $sql.=" where ".join (" && ",$this->a2s($where));
     }
     elseif(is_numeric($where)){
         $sql.=" where `id`='$where'";
@@ -55,6 +54,11 @@ function find($where){
         $sql.=" $where";
     }
     return $this->pdo->query($sql)->fetch(PDO::FETCH_ASSOC);
+}
+function all($where='',$other=''){
+    $sql="select * from $this->table ";
+    $sql= $this->sql_all($sql,$where,$other);
+    return $this->pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
 }
 }
 ?>
