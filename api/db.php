@@ -37,11 +37,10 @@ Class DB{
         $sql.=" $other";
         return $sql;
     }
-    private function math($math,$col,$where,$other){
-        $sql = "select $math(`$col`) from $this->table";
-        $sql =$this->sql_all($sql,$where,$other);
-        return $this->pdo->query($sql)->fetchColumn();
-    }
-    
+private function math($math,$col,$where,$other){
+    $sql = "select $math(`$col`) from $this->table ";
+    $sql = $this->sql_all($sql,$where,$other);
+    return $this->pdo->query($sql)->fetchColumn();
+}
 }
 ?>
