@@ -12,4 +12,7 @@ function to($url)
 {
     header("location:$url");
 }
+Class DB{
+    
+}
 ?>
