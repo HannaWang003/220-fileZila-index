@@ -38,7 +38,9 @@ Class DB{
         return $sql;
     }
     private function math($math,$col,$where,$other){
-        $sql = "select `$col` from `$this->table`";
+        $sql = "select $math(`$col`) from $this->table";
+        $sql =$this->sql_all($sql,$where,$other);
+        return $this->pdo->query($sql)->fetchColumn();
     }
     
 }
