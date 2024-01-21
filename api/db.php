@@ -80,7 +80,11 @@ function min($col,$where='',$other=''){
 
 }
 function save($ary){
-    
+    if(isset($ary['id'])){
+        if(!empty($ary)){
+            $tmp = $this->a2s($ary);
+        }
+    }
 }
 }
 ?>
