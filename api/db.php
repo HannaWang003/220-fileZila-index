@@ -49,21 +49,26 @@ function find($where){
     }
     elseif(is_numeric($where)){
         $sql.=" where `id`='$where'";
-    }
-   
+    }   
     return $this->pdo->query($sql)->fetch(PDO::FETCH_ASSOC);
 }
-function all($where='',$other=''){
-    if(isset($this->table) && !empty($this->table)){
-        $sql = "select * from `$this->table`";
-        $sql = $this->sql_all($sql,$where,$other);
+function all($where='',$other='')
+{
+    if (isset($this->table) && !empty($this->table)) {
+        $sql = "select * from `$this->table` ";
+        $sql = $this->sql_all($sql, $where , $other);
         return $this->pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
-    }
+
+
+}
 }
 function count($where='',$other=''){
     $sql = "select conunt(*) from $this->table ";
     $sql= $this->sql_all($sql,$where,$other);
     return $this->pdo->query($sql)->fetchColumn();
+}
+function sum($col,$where='',$other=''){
+    
 }
 }
 ?>
