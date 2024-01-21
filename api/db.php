@@ -62,5 +62,10 @@ function all($where='',$other=''){
         return $this->pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
     }
 }
+function count($where='',$other=''){
+    $sql = "select conunt(*) from $this->table ";
+    $sql= $this->sql_all($sql,$where,$other);
+    return $this->pdo->query($sql)->fetchColumn();
+}
 }
 ?>
