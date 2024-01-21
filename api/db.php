@@ -32,8 +32,10 @@ Class DB{
                 $sql.=" where ".join(" && ",$this->a2s($where));
             }
         }else{
-            $sql.=$where;
+            $sql.=" $where";
         }
+        $sql.=" $other";
+        return $sql;
     }
     
 }
