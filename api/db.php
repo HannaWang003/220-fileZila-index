@@ -91,7 +91,10 @@ function save($ary){
     }
     else{
 $sql = "insert into `$this->table` ";
-$col = 
+$tmp = array_keys($ary);
+$col = "`".join("`,`",$tmp)."`";
+$val = "'".join("','",$ary)."'";
+$sql.=" ($col) values ($val)";
     }
 }
 }
