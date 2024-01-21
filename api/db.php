@@ -29,7 +29,7 @@ Class DB{
     private function sql_all($sql,$where,$other){
         if(is_array($where)){
             if(!empty($where)){
-                
+                $sql.=" where ".join(" && ",$this->a2s($where));
             }
         }
     }
