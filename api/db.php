@@ -79,5 +79,8 @@ function min($col,$where='',$other=''){
     return $this->math('min',$col,$where,$other);
 
 }
+function save($ary){
+    
+}
 }
 ?>
