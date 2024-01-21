@@ -20,6 +20,15 @@ Class DB{
         $this->table = $table;
         $this->pdo = new PDO($this->dsn,'root','');
     }
+    private function a2s($ary){
+        foreach($ary as $idx=>$val){
+            $tmp[]="`$idx`='$val'";
+        }
+        return $tmp;
+    }
+    private function sql_all($sql,$where,$other){
+        
+    }
     
 }
 ?>
