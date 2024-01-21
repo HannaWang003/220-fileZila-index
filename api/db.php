@@ -20,6 +20,6 @@ Class DB{
         $this->table = $table;
         $this->pdo = new PDO($this->dsn,'root','');
     }
-
+    
 }
 ?>
