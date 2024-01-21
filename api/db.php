@@ -44,6 +44,17 @@ private function math($math,$col,$where,$other){
 }
 function find($where){
     $sql = "select * from $this->table";
+    if(is_array($where)){
+        $sql.=" where ".join(" && ",$this->a2s($where));
+
     }
+    elseif(is_numeric($where)){
+        $sql.=" where `id`='$where'";
+    }
+    else{
+        $sql.=" $where";
+    }
+    return $this->pdo->query($sql)->fetch(PDO::FETCH_ASSOC);
+}
 }
 ?>
