@@ -16,6 +16,7 @@ private $table;
 
 public function __construct($table){
     $this->pdo =new PDO($this->dsn,'root','');
+    $this->table = $table;
 
 }
 }
