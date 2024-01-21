@@ -123,6 +123,8 @@ class DB
     }
 
 }
+$Index220 = new DB('index220');
+$Inexeffect = new DB('indexeffect');
 //資料表
 
 //判斷是否瀏覽過
