@@ -94,8 +94,21 @@ $sql = "insert into `$this->table` ";
 $tmp = array_keys($ary);
 $col = "`".join("`,`",$tmp)."`";
 $val = "'".join("','",$ary)."'";
-$sql.=" ($col) values ($val)";
+$sql.=" ($col) VALUES ($val)";
     }
+    return $this->pdo->exec($sql);
+}
+function del($where){
+    $sql = "delete from `$this->table` ";
+    if(is_array($where)){
+        $sql.=" where ".join(" && ",$this->a2s($where));
+    }else if(is_numeric($where)){
+        $sql.=" where `id`=$where";
+    }
+    return $this->pdo->exec($sql);
+}
+function q($sql){
+    return $this->pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
 }
 }
 ?>
