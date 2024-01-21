@@ -81,9 +81,11 @@ function min($col,$where='',$other=''){
 }
 function save($ary){
     if(isset($ary['id'])){
+        $sql = "update `$this->table` set ";
         if(!empty($ary)){
             $tmp = $this->a2s($ary);
         }
+        $sql.=join(" , ",tmp)
     }
 }
 }
