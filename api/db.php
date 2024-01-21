@@ -31,6 +31,8 @@ Class DB{
             if(!empty($where)){
                 $sql.=" where ".join(" && ",$this->a2s($where));
             }
+        }else{
+            $sql.=$where;
         }
     }
     
