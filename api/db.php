@@ -56,9 +56,11 @@ function find($where){
     return $this->pdo->query($sql)->fetch(PDO::FETCH_ASSOC);
 }
 function all($where='',$other=''){
-    $sql="select * from $this->table ";
-    $sql= $this->sql_all($sql,$where,$other);
-    return $this->pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
+    if(isset($this->table) && !empty($this->table)){
+        $sql = "select * from $this->table";
+        $sql = $this->sql_all($sql,$where,$other);
+        return $this->pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
+    }
 }
 }
 ?>
