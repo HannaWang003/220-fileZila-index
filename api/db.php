@@ -37,6 +37,7 @@ Class DB{
         $sql.=" $other";
         return $sql;
     }
+    private function math
     
 }
 ?>
