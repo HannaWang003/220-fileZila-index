@@ -13,15 +13,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 </head>
 <style>
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 
+.box01 {
+    margin: auto;
+    width: 90%;
+    height: 105vh;
+    border: 1px solid lightslategray;
+}
 </style>
 
 <body data-scroll-container>
-    <div class="container">
+    <div class="container-fliud">
         <!-- myself -->
         <div class="row">
             <div class="col">
-                <div class="box01"></div>
+                <div class="box01">名片</div>
             </div>
             <!-- /myself -->
             <!-- work -->
