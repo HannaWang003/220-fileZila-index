@@ -70,9 +70,9 @@ body{
                 <br>
                 <span id="type-container03" class=""></span>
             </div>
-            <div class="col">
+            <div class="col text-center">
                 THIS IS ME
-           <img src="./img/Hanna_b.png" style="width:50%;"> 
+           <img src="./img/Hanna.svg" style="width:50%;"> 
             </div>
             <!-- /myself -->
         </div>
