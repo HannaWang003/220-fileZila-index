@@ -38,7 +38,8 @@ body{
     /* test */
     .box {
         border: 1px solid black;
-        height: 50vh;
+        height: 60vh;
+        background-color:#E8E9F3;
         
     }
 
@@ -82,7 +83,7 @@ body{
             <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="horizontal" data-scroll-speed=-2 style="mix-blend-mode: difference;">
                 <div class="col-6">
                     <h2 class="fsType01">CB Coffe</h2>
-                    <h4 class="fsType01">USAGE</h4>
+                    <h4 class="fsType">USAGE</h4>
                 </div>
                 <div class="col-6"></div>
             </div>
