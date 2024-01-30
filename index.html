@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Animation with GSAP</title>
+  <script src="https://unpkg.com/gsap@3.9.2/dist/gsap.min.js"></script>
+</head>
+<body>
+
+<div id="text-container">
+  <span class="letter">H</span>
+  <span class="letter">e</span>
+  <span class="letter">l</span>
+  <span class="letter">l</span>
+  <span class="letter">o</span>
+</div>
+
+<script>
+  gsap.timeline({ repeat: 0 })
+    .to('.letter', {
+      x: () => gsap.utils.random(-50, 50),
+      y: () => gsap.utils.random(-50, 50),
+      rotation: () => gsap.utils.random(-180, 180),
+      opacity: 0,
+      duration: 1,
+      stagger: 0.03,
+      ease: 'power4.inOut',
+    });
+</script>
+
+</body>
+</html>

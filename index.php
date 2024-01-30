@@ -58,6 +58,7 @@ body{
 </style>
 
 <body data-scroll-container>
+    <a href="index.html">test</a>
     <div class="container-fliud">
         <div class="row p-5 flex-column flex-sm-row vh-100 vw-100">
             <!-- myself -->
@@ -79,7 +80,10 @@ body{
             <span class="fsType fs-1 text-end" data-scroll data-scroll-speed=-2>FRONT</span>
             <span class="fsType fs-1 text-end" data-scroll data-scroll-speed=2>END</span>
             <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="horizontal" data-scroll-speed=-2 style="mix-blend-mode: difference;">
-                <div class="col-6  d-flex align-items-center"><h2 class="fsType01">CB Coffe</h2></div>
+                <div class="col-6">
+                    <h2 class="fsType01">CB Coffe</h2>
+                    <h4 class="fsType01">USAGE</h4>
+                </div>
                 <div class="col-6"></div>
             </div>
             <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="vertical" data-scroll-speed=-2 style="mix-blend-mode: difference;">
