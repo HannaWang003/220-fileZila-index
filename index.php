@@ -5,11 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>...</title>
+    <link rel="icon" href="./img/icon.png" type="image/png">
     <link rel="stylesheet" href="./dist/bootstrap.min.css" />
     <link rel="stylesheet" href="./dist/locomotive-scroll.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Righteous&display=swap" rel="stylesheet">
 </head>
 <style>
     * {
@@ -38,6 +39,7 @@ body{
     .box {
         border: 1px solid black;
         height: 50vh;
+        
     }
 
     .fdV {
@@ -48,6 +50,10 @@ body{
         font-family: "Anton", sans-serif;
         font-weight: 400;
         font-style: normal;
+    }
+    .fsType01{
+        font-family: 'Righteous', sans-serif;
+
     }
 </style>
 
@@ -62,18 +68,29 @@ body{
                 <br>
                 <span id="type-container03" class=""></span>
             </div>
-            <div class="col">THIS IS ME</div>
+            <div class="col">
+                THIS IS ME
+           <img src="./img/Hanna_b.png" style="width:50%;"> 
+            </div>
             <!-- /myself -->
         </div>
         <div class="row p-3" style="width:100vw">
             <!-- FRONT -->
             <span class="fsType fs-1 text-end" data-scroll data-scroll-speed=-2>FRONT</span>
             <span class="fsType fs-1 text-end" data-scroll data-scroll-speed=2>END</span>
-            <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="horizontal" data-scroll-speed=-2>1</div>
-            <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="vertical" data-scroll-speed=-2>2
+            <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="horizontal" data-scroll-speed=-2 style="mix-blend-mode: difference;">
+                <div class="col-6  d-flex align-items-center"><h2 class="fsType01">CB Coffe</h2></div>
+                <div class="col-6"></div>
             </div>
-            <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="horizontal" data-scroll-speed=2>3</div>
-            <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="vertical" data-scroll-speed=2>
+            <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="vertical" data-scroll-speed=-2 style="mix-blend-mode: difference;">
+            <div class="col-6  d-flex align-items-center"><h2 class="fsType01">Zoo</h2></div>
+                <div class="col-6"></div>
+            </div>
+            <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="horizontal" data-scroll-speed=2 style="mix-blend-mode: difference;">
+            <div class="col-6  d-flex align-items-center"><h2 class="fsType01">Halloween</h2></div>
+                <div class="col-6"></div>
+            </div>
+            <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="vertical" data-scroll-speed=2 style="mix-blend-mode: difference;">
                 4
             </div>
             <!-- /FRONT -->
@@ -82,8 +99,13 @@ body{
             <!-- BACK-->
             <span class="fsType fs-1 mx-3" data-scroll data-scroll-speed=-2>BACK</span>
             <span class="fsType fs-1 mx-3" data-scroll data-scroll-speed=2>END</span>
-            <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="vertical" data-scroll-speed=-2>1</div>
-            <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="horizontal" data-scroll-speed=2>2
+            <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=-2>
+                <div class="col-6"></div>
+                <div class="col-6"><h2 class="fsType01 text-end">Calendar</h2></div>
+            </div>
+            <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="horizontal" data-scroll-speed=2>
+                <div class="col-6"></div>
+            <div class="col-6"><h2 class="fsType01 text-end">WuBai</h2></div>
             </div>
             <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="vertical" data-scroll-speed=2>3</div>
             <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="horizontal" data-scroll-speed=-2>
