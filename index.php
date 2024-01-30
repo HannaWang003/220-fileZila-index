@@ -16,7 +16,9 @@
         margin: 0;
         box-sizing: border-box;
     }
-
+body{
+  background-color:#E8E9F3;
+}
     #type-container01 {
         font-size: 10vw;
     }
@@ -116,8 +118,9 @@
         });
         //typed
         let head01 = {
-            strings: ["WEB<br>ENGINEER"],
-            typeSpeed: 100,
+            strings: ["WEB<br>PLAYER","WEB<br>ENGINEER"],
+            typeSpeed: 50,
+            backSpeed:25,
             onComplete: function() {
                 typed.cursor.style.display = "none"
                 new Typed("#type-container02", head02)
@@ -126,15 +129,15 @@
             // loop: true,
         }
         let head02 = {
-            strings: ["GOT AN IDEA"],
-            typeSpeed: 150,
+            strings: ["IDEAS To Bytes"],
+            typeSpeed: 50,
             onComplete: function() {
                 new Typed("#type-container03", head03)
             }
 
         }
         let head03 = {
-            strings: ["CONTACT ME"],
+            strings: ["CONTACT ME <span style='writing-mode:vertical-lr'> =) </span>"],
             typeSpeed: 100,
             showCursor: false,
             onComplete: function() {
