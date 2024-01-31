@@ -17,9 +17,11 @@
         margin: 0;
         box-sizing: border-box;
     }
-body{
-  background-color:#E8E9F3;
-}
+
+    body {
+        background-color: #E8E9F3;
+    }
+
     #type-container01 {
         font-size: 10vw;
     }
@@ -39,8 +41,8 @@ body{
     .box {
         border: 1px solid black;
         height: 60vh;
-        background-color:#E8E9F3;
-        
+        background-color: #E8E9F3;
+
     }
 
     .fdV {
@@ -52,7 +54,8 @@ body{
         font-weight: 400;
         font-style: normal;
     }
-    .fsType01{
+
+    .fsType01 {
         font-family: 'Righteous', sans-serif;
 
     }
@@ -72,7 +75,7 @@ body{
             </div>
             <div class="col text-center">
                 THIS IS ME
-           <img src="./img/Hanna.svg" style="width:50%;"> 
+                <img src="./img/Hanna.svg" style="width:50%;">
             </div>
             <!-- /myself -->
         </div>
@@ -88,11 +91,17 @@ body{
                 <div class="col-6"></div>
             </div>
             <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="vertical" data-scroll-speed=-2 style="mix-blend-mode: difference;">
-            <div class="col-6  d-flex align-items-center"><h2 class="fsType01">Zoo</h2></div>
+                <div class="col-6">
+                    <h2 class="fsType01">Zoo</h2>
+                    <h4 class="fsType">USAGE</h4>
+                </div>
                 <div class="col-6"></div>
             </div>
             <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="horizontal" data-scroll-speed=2 style="mix-blend-mode: difference;">
-            <div class="col-6  d-flex align-items-center"><h2 class="fsType01">Halloween</h2></div>
+                <div class="col-6">
+                    <h2 class="fsType01">Halloween</h2>
+                    <h4 class="fsType">USAGE</h4>
+                </div>
                 <div class="col-6"></div>
             </div>
             <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="vertical" data-scroll-speed=2 style="mix-blend-mode: difference;">
@@ -106,11 +115,17 @@ body{
             <span class="fsType fs-1 mx-3" data-scroll data-scroll-speed=2>END</span>
             <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=-2>
                 <div class="col-6"></div>
-                <div class="col-6"><h2 class="fsType01 text-end">Calendar</h2></div>
+                <div class="col-6">
+                    <h2 class="fsType01 text-end">Calendar</h2>
+                    <h4 class="fsType text-end">USAGE</h4>
+                </div>
             </div>
             <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="horizontal" data-scroll-speed=2>
                 <div class="col-6"></div>
-            <div class="col-6"><h2 class="fsType01 text-end">WuBai</h2></div>
+                <div class="col-6">
+                    <h2 class="fsType01 text-end">WuBai</h2>
+                    <h4 class="fsType text-end">USAGE</h4>
+                </div>
             </div>
             <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="vertical" data-scroll-speed=2>3</div>
             <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="horizontal" data-scroll-speed=-2>
@@ -145,9 +160,9 @@ body{
         });
         //typed
         let head01 = {
-            strings: ["WEB<br>PLAYER","WEB<br>ENGINEER"],
+            strings: ["WEB<br>PLAYER", "WEB<br>ENGINEER"],
             typeSpeed: 50,
-            backSpeed:25,
+            backSpeed: 25,
             onComplete: function() {
                 typed.cursor.style.display = "none"
                 new Typed("#type-container02", head02)
