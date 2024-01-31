@@ -91,14 +91,14 @@ body {
                 <div class="col-6">
                 </div>
             </div>
-            <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="vertical" data-scroll-speed=-2>
+            <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="vertical" data-scroll-speed=-2 style="box-shadow:1px -1px 3px #000">
                 <div class="col-6 p-5">
                     <h2 class="fsType01">Zoo</h2>
                     <h4 class="fsType">USAGE</h4>
                 </div>
                 <div class="col-6"></div>
             </div>
-            <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="horizontal" data-scroll-speed=2>
+            <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="horizontal" data-scroll-speed=2 style="box-shadow:1px -1px 3px #000">
                 <div class="col-6 p-5">
                     <h2 class="fsType01">Halloween</h2>
                     <h4 class="fsType">USAGE</h4>
@@ -114,7 +114,7 @@ body {
             <!-- BACK-->
             <span class="fsType fs-1 mx-3" data-scroll data-scroll-speed=-2>BACK</span>
             <span class="fsType fs-1 mx-3" data-scroll data-scroll-speed=2>END</span>
-            <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=-2>
+            <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=-2 style="box-shadow:1px -1px 3px #000">
                 <div class="col-6"></div>
                 <div class="col-6 p-5">
                     <h2 class="fsType01 text-end">Calendar</h2>
@@ -129,7 +129,7 @@ body {
                 </div>
             </div>
             <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="vertical" data-scroll-speed=2>3</div>
-            <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="horizontal" data-scroll-speed=-2>
+            <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="horizontal" data-scroll-speed=-2 style="box-shadow:1px -1px 3px #000">
                 4
             </div>
             <!-- /BACK-->
@@ -139,10 +139,12 @@ body {
             <span class="fsType text-center" style="font-size:5vw">SKILL</span>
             <span class="fsType text-center">PHP</span>
             <span class="fsType text-center">MYSQL</span>
-            <span class="fsType text-center">JAVASCEIPT</span>
-            <span class="fsType text-center">BOOTSTRAP</span>
+            <span class="fsType text-center">JavaScript</span>
+            <span class="fsType text-center">Bootstrap</span>
             <span class="fsType text-center">CSS</span>
             <span class="fsType text-center">HTML</span>
+            <span class="fsType text-center">PhotoShop</span>
+            <span class="fsType text-center">Illustrator</span>
             <!-- /skill -->
         </div>
     </div>
