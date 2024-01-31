@@ -84,21 +84,22 @@ body {
             <span class="fsType fs-1 text-end" data-scroll data-scroll-speed=-2>FRONT</span>
             <span class="fsType fs-1 text-end" data-scroll data-scroll-speed=2>END</span>
             <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="horizontal" data-scroll-speed=-2>
-                <div class="col-6">
+                <div class="col-6 p-5">
                     <h2 class="fsType01">CB Coffe</h2>
                     <h4 class="fsType">USAGE</h4>
                 </div>
-                <div class="col-6"></div>
+                <div class="col-6">
+                </div>
             </div>
             <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="vertical" data-scroll-speed=-2>
-                <div class="col-6">
+                <div class="col-6 p-5">
                     <h2 class="fsType01">Zoo</h2>
                     <h4 class="fsType">USAGE</h4>
                 </div>
                 <div class="col-6"></div>
             </div>
             <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="horizontal" data-scroll-speed=2>
-                <div class="col-6">
+                <div class="col-6 p-5">
                     <h2 class="fsType01">Halloween</h2>
                     <h4 class="fsType">USAGE</h4>
                 </div>
@@ -115,14 +116,14 @@ body {
             <span class="fsType fs-1 mx-3" data-scroll data-scroll-speed=2>END</span>
             <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=-2>
                 <div class="col-6"></div>
-                <div class="col-6">
+                <div class="col-6 p-5">
                     <h2 class="fsType01 text-end">Calendar</h2>
                     <h4 class="fsType text-end">USAGE</h4>
                 </div>
             </div>
             <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="horizontal" data-scroll-speed=2>
                 <div class="col-6"></div>
-                <div class="col-6">
+                <div class="col-6 p-5">
                     <h2 class="fsType01 text-end">WuBai</h2>
                     <h4 class="fsType text-end">USAGE</h4>
                 </div>
