@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Righteous&display=swap" rel="stylesheet">
+    <script src="./dist/jquery.min.js"></script>
 </head>
 <style>
     * {
@@ -114,25 +115,27 @@
             <!-- BACK-->
             <span class="fsType fs-1 mx-3" data-scroll data-scroll-speed=-2>BACK</span>
             <span class="fsType fs-1 mx-3" data-scroll data-scroll-speed=2>END</span>
-            <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=-2 style="box-shadow:1px -1px 3px #aaa">
+            <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=-2>
                 <div class="col-6"></div>
                 <div class="col-6 p-5">
                     <h2 class="fsType01 text-end">Calendar</h2>
                     <h4 class="fsType text-end">USAGE</h4>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="horizontal" data-scroll-speed=2>
+            <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="horizontal" data-scroll-speed=2 style="box-shadow:2px -2px 3px #aaa">
                 <div class="col-6"></div>
                 <div class="col-6 p-5">
                     <h2 class="fsType01 text-end">WuBai</h2>
                     <h4 class="fsType text-end">USAGE</h4>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="vertical" data-scroll-speed=2>3</div>
-            <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="horizontal" data-scroll-speed=-2 style="box-shadow:1px -1px 3px #000">
+            <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="vertical" data-scroll-speed=2 style="box-shadow:2px -2px 8px #aaa">3</div>
+            <div class="col-12 col-sm-6 box" data-scroll data-scroll-direction="horizontal" data-scroll-speed=-2 style="box-shadow:2px -2px 12px #aaa">
                 4
             </div>
             <!-- /BACK-->
+        </div>
+        <div class="row" style="width:100vw">
         </div>
         <div class="row p-5 justify-content-center fs-3" style="width:100vw;">
             <!-- skill -->
@@ -148,9 +151,6 @@
             <!-- /skill -->
         </div>
     </div>
-
-
-    <script src="./dist/jquery.min.js"></script>
     <script src="./dist/bootstrap.bundle.min.js"></script>
     <script src="./dist/bootstrap.min.js"></script>
     <script src="./dist/locomotive-scroll.min.js"></script>
