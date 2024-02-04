@@ -186,7 +186,7 @@
         </div>
         <div class="row p-3 justify-content-center vw-100">
         <div class="col text-center">
-        <i class="fa-brands fa-square-github fa-2xl fs-1" style="color:#7A7469"></i>
+        <a href="https://github.com/HannaWang003" target="_blank"><i class="fa-brands fa-square-github fa-2xl fs-1" style="color:#7A7469"></i></a>
         </div>
     </div>
     <script src="./dist/bootstrap.bundle.min.js"></script>
@@ -194,6 +194,8 @@
     <script src="./dist/locomotive-scroll.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    
 
     <script>
         //locomotiveScroll
