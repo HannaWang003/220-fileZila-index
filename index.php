@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Righteous&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css' integrity='sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==' crossorigin='anonymous'/>
     <script src="./dist/jquery.min.js"></script>
 </head>
 <style>
@@ -20,15 +21,17 @@
     }
 
     body {
-        background-color: #E8E9F3;
+        background-color: #D9D6CC;
     }
 
     #type-container01 {
         font-size: 10vw;
+        color:#212121;
     }
 
     #type-container02 {
         font-size: 5vw;
+        color:#7A7469;
     }
 
     #type-container03 {
@@ -37,12 +40,14 @@
         text-align: end;
         font-size: 2vw;
     }
-
+.fc-1{
+    color:#7A7469;
+}
     /* test */
     .box {
         border: 1px solid black;
         height: 60vh;
-        background-color: #E8E9F3;
+        background-color: #D9D6CC;
 
     }
 
@@ -59,6 +64,9 @@
     .fsType01 {
         font-family: 'Righteous', sans-serif;
 
+    }
+    .fs01{
+        font-size:5vw;
     }
     .imgW{
         width:20vw;
@@ -104,7 +112,7 @@
             <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="horizontal" data-scroll-speed=-2>
                 <div class="col-6 p-5">
                     <h2 class="fsType01">CB Coffe</h2>
-                    <h4 class="fsType">USAGE</h4>
+                    <h4 class="fsType fc-1">USAGE</h4>
                 </div>
                 <div class="col-6 d-flex justify-content-center align-items-center">
                     <a href="./fe/cb-coffe" target="_blank"><img src="./img/work/frontend03.png" class="imgW"></a>
@@ -113,14 +121,14 @@
             <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=-2 style="box-shadow:2px -2px 3px #aaa">
                 <div class="col-6 p-5">
                     <h2 class="fsType01">Zoo</h2>
-                    <h4 class="fsType">USAGE</h4>
+                    <h4 class="fsType fc-1">USAGE</h4>
                 </div>
                 <div class="col-6 d-flex justify-content-center align-items-center"><a href="./fe/zoo" target="_blank"><img src="./img/work/frontend03.png" class="imgW"></a></div>
             </div>
             <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="horizontal" data-scroll-speed=2 style="box-shadow:2px -2px 8px #aaa">
                 <div class="col-6 p-5">
                     <h2 class="fsType01">Halloween</h2>
-                    <h4 class="fsType">USAGE</h4>
+                    <h4 class="fsType fc-1">USAGE</h4>
                 </div>
                 <div class="col-6 d-flex justify-content-center align-items-center"><a href="./fe/halloween" target="_blank"><img src="./img/work/frontend03.png" class="imgW"></a></div>
             </div>
@@ -137,14 +145,14 @@
                 <div class="col-6 d-flex justify-content-center align-items-center"><a href="./be/calendar" target="_blank"><img src="./img/work/backend03.png" class="imgW"></a></div>
                 <div class="col-6 p-5">
                     <h2 class="fsType01 text-end">Calendar</h2>
-                    <h4 class="fsType text-end">USAGE</h4>
+                    <h4 class="fsType text-end fc-1">USAGE</h4>
                 </div>
             </div>
             <div class="col-12 col-sm-6 box d-flex d-flex" data-scroll data-scroll-direction="horizontal" data-scroll-speed=2 style="box-shadow:2px -2px 3px #aaa">
                 <div class="col-6 d-flex justify-content-center align-items-center"><img src="./img/work/backend03.png" class="imgW"></div>
                 <div class="col-6 p-5">
                     <h2 class="fsType01 text-end">WuBai</h2>
-                    <h4 class="fsType text-end">USAGE</h4>
+                    <h4 class="fsType text-end fc-1">USAGE</h4>
                 </div>
             </div>
             <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=2 style="box-shadow:2px -2px 8px #aaa">3</div>
@@ -153,9 +161,17 @@
             </div>
             <!-- /BACK-->
         </div>
-        <div class="row" style="width:100vw">
+        <hr style="width:60vw" class="mt-5">
+        <div class="row" style="width:100vw;height:100vh">
+        <div class="col">
+            
         </div>
-        <div class="row p-5 justify-content-center fs-3" style="width:100vw;">
+        <div class="col m-5 fsType01">
+        <h1 class="text-center fs01">HANNA<br>WANG</h1>
+        </div>
+        </div>
+        <hr style="width:60vw" class="mb-5">
+        <div class="row p-3 justify-content-center fs-3" style="width:100vw;">
             <!-- skill -->
             <span class="fsType text-center" style="font-size:5vw">SKILL</span>
             <span class="fsType text-center">PHP</span>
@@ -167,6 +183,10 @@
             <span class="fsType text-center">PhotoShop</span>
             <span class="fsType text-center">Illustrator</span>
             <!-- /skill -->
+        </div>
+        <div class="row p-3 justify-content-center vw-100">
+        <div class="col text-center">
+        <i class="fa-brands fa-square-github fa-2xl fs-1" style="color:#7A7469"></i>
         </div>
     </div>
     <script src="./dist/bootstrap.bundle.min.js"></script>
