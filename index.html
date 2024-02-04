@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Text Animation with GSAP</title>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/turn.js/3/turn.min.js"
-      integrity="sha512-rFun1mEMg3sNDcSjeGP35cLIycsS+og/QtN6WWnoSviHU9ykMLNQp7D1uuG1AzTV2w0VmyFVpszi2QJwiVW6oQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-  </head>
-  <body>
-    <div id="flipbook">
-      <div class="hard">Turn.js</div>
-      <div class="hard"></div>
-      <div>Page 1</div>
-      <div>Page 2</div>
-      <div>Page 3</div>
-      <div>Page 4</div>
-      <div class="hard"></div>
-      <div class="hard"></div>
-    </div>
-    <script type="text/javascript">
-      $("#flipbook").turn({
-        width: 400,
-        height: 300,
-        autoCenter: true,
-      });
-    </script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime.js Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1"></script>
+
+</head>
+<body>
+  <svg class="motion-path-demo" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 841.89 595.28" style="enable-background:new 0 0 841.89 595.28;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#231815;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M114.67,351.89c59.26-96.3,345.19-177.04,469.63-82.96s109.63,227.41,65.93,258.52
+	c-43.7,31.11-306.67-21.48-248.89-164.44s360-194.81,360-194.81"/>
+</svg>
+
+
+  <script>
+anime({
+  targets: 'path',
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: 'easeInOutSine',
+  duration: 1500,
+  delay: function(el, i) { return i * 250 },
+  direction: 'alternate',
+  loop: true
+});
+  </script>
+</body>
 </html>
