@@ -82,6 +82,12 @@ body {
     width: 20vw;
 
 }
+.about-lr{
+background:url('./img/about.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-size:cover;
+}
 </style>
 
 <body data-scroll-container>
@@ -109,9 +115,9 @@ body {
                 <br>
                 <span id="type-container03" class=""></span>
             </div>
-            <div class="col text-center">
-                THIS IS ME
-                <img src="./img/Hanna.svg" style="width:50%;">
+            <div class="col d-flex align-items-center justify-content-center">
+                <div id="thisIs">THIS IS ME</div>
+                <img id="thisMe" src="./img/Hanna.svg" style="width:50%;">
             </div>
             <!-- /myself -->
         </div>
@@ -183,8 +189,8 @@ body {
             <!-- /BACK-->
         </div>
         <hr style="width:60vw" class="mt-5">
-        <div class="row" style="width:100vw;height:100vh">
-            <div class="col">
+        <div class="row" style="width:100vw;height:100vh;">
+            <div class="col about-lr" data-scroll data-scroll-direction="horizontal" data-scroll-speed="5">
 
             </div>
             <div class="col m-5 fsType01">
@@ -265,6 +271,9 @@ body {
             direction: 'alternate',
             //   loop: true
         });
+        let tl=gsap.timeline()
+        tl.from('#thisMe',{x:800,scale:1.5,duration:1,rotation:90,ease: "bounce.out",})
+        tl.from("#thisIs",{duration:1.5,ease: "bounce.out",y: -1000})
         </script>
 </body>
 
