@@ -11,86 +11,96 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Righteous&display=swap" rel="stylesheet">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css' integrity='sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==' crossorigin='anonymous'/>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css'
+        integrity='sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=='
+        crossorigin='anonymous' />
     <script src="./dist/jquery.min.js"></script>
 </head>
 <style>
-    * {
-        margin: 0;
-        box-sizing: border-box;
-    }
-
-    body {
-        background-color: #D9D6CC;
-    }
-
-    #type-container01 {
-        font-size: 10vw;
-        color:#212121;
-    }
-
-    #type-container02 {
-        font-size: 5vw;
-        color:#7A7469;
-    }
-
-    #type-container03 {
-        display: inline-block;
-        width: 100%;
-        text-align: end;
-        font-size: 2vw;
-    }
-.fc-1{
-    color:#7A7469;
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
-    /* test */
-    .box {
-        border: 1px solid black;
-        height: 60vh;
-        background-color: #D9D6CC;
 
-    }
+body {
+    background-color: #D9D6CC;
+}
 
-    .fdV {
-        writing-mode: vertical-lr;
-    }
+#type-container01 {
+    font-size: 10vw;
+    color: #212121;
+}
 
-    .fsType {
-        font-family: "Anton", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
+#type-container02 {
+    font-size: 5vw;
+    color: #7A7469;
+}
 
-    .fsType01 {
-        font-family: 'Righteous', sans-serif;
+#type-container03 {
+    display: inline-block;
+    width: 100%;
+    text-align: end;
+    font-size: 2vw;
+}
 
-    }
-    .fs01{
-        font-size:5vw;
-    }
-    .imgW{
-        width:20vw;
-    }
-    .svgW{
-        width:20vw;
-    }
+.fc-1 {
+    color: #7A7469;
+}
+
+/* test */
+.box {
+    border: 1px solid black;
+    height: 60vh;
+    background-color: #D9D6CC;
+
+}
+
+.fdV {
+    writing-mode: vertical-lr;
+}
+
+.fsType {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fsType01 {
+    font-family: 'Righteous', sans-serif;
+
+}
+
+.fs01 {
+    font-size: 5vw;
+}
+
+.imgW {
+    width: 20vw;
+}
+
+.svgW {
+    width: 20vw;
+
+}
 </style>
 
 <body data-scroll-container>
     <div class="container-fliud">
         <div class="row p-5 flex-column flex-sm-row vh-100 vw-100">
-        <svg id="_圖層_1" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 777.02 474.3" style="position:absolute;">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: transparent;
-        stroke: #231815;
-        stroke-miterlimit: 10;
-      }
-    </style>
-  </defs>
-  <path class="cls-1" d="M4.75,44S20.31-88.59,190.68,109.19s140.74,394.81-10.37,360.74S-27.84,369.93,13.64,336.6s140.26,19.45,139.87-124.44S293.64,28.45,352.16,78.82s397.78,368.89,204.44,374.81,92.59-205.93-16.3-336.3S-60.43,158.08,53.64,292.89s325.93-2.22,308.89-145.19C345.49,4.74,92.16,.3,209.2,189.93s75.56,265.93,227.41,129.63,408.91,131.4,267.41,132.59-67.41-239.26-60.74-302.96-224.44-71.85-245.93,114.81,19.26,259.26,134.81,131.85c115.56-127.41,174.81-142.96,189.63-91.11s-284.44-57.78-314.81-147.41,199.26-191.85,254.07-111.85-13.33,155.56,34.07,199.26,81.48-7.6,81.48-7.6"/>
-</svg>
+            <svg id="_圖層_1" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 777.02 474.3"
+                style="position:absolute;">
+                <defs>
+                    <style>
+                    .cls-1 {
+                        fill: transparent;
+                        stroke: #231815;
+                        stroke-miterlimit: 10;
+                    }
+                    </style>
+                </defs>
+                <path class="cls-1"
+                    d="M4.75,44S20.31-88.59,190.68,109.19s140.74,394.81-10.37,360.74S-27.84,369.93,13.64,336.6s140.26,19.45,139.87-124.44S293.64,28.45,352.16,78.82s397.78,368.89,204.44,374.81,92.59-205.93-16.3-336.3S-60.43,158.08,53.64,292.89s325.93-2.22,308.89-145.19C345.49,4.74,92.16,.3,209.2,189.93s75.56,265.93,227.41,129.63,408.91,131.4,267.41,132.59-67.41-239.26-60.74-302.96-224.44-71.85-245.93,114.81,19.26,259.26,134.81,131.85c115.56-127.41,174.81-142.96,189.63-91.11s-284.44-57.78-314.81-147.41,199.26-191.85,254.07-111.85-13.33,155.56,34.07,199.26,81.48-7.6,81.48-7.6" />
+            </svg>
             <!-- myself -->
             <div class="col">
                 <span id="type-container01" class="fsType"></span>
@@ -118,21 +128,26 @@
                     <a href="./fe/cb-coffe" target="_blank"><img src="./img/work/frontend03.png" class="imgW"></a>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=-2 style="box-shadow:2px -2px 3px #aaa">
+            <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=-2
+                style="box-shadow:2px -2px 3px #aaa">
                 <div class="col-6 p-5">
                     <h2 class="fsType01">Zoo</h2>
                     <h4 class="fsType fc-1">USAGE</h4>
                 </div>
-                <div class="col-6 d-flex justify-content-center align-items-center"><a href="./fe/zoo" target="_blank"><img src="./img/work/frontend03.png" class="imgW"></a></div>
+                <div class="col-6 d-flex justify-content-center align-items-center"><a href="./fe/zoo"
+                        target="_blank"><img src="./img/work/frontend03.png" class="imgW"></a></div>
             </div>
-            <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="horizontal" data-scroll-speed=2 style="box-shadow:2px -2px 8px #aaa">
+            <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="horizontal" data-scroll-speed=2
+                style="box-shadow:2px -2px 8px #aaa">
                 <div class="col-6 p-5">
                     <h2 class="fsType01">Halloween</h2>
                     <h4 class="fsType fc-1">USAGE</h4>
                 </div>
-                <div class="col-6 d-flex justify-content-center align-items-center"><a href="./fe/halloween" target="_blank"><img src="./img/work/frontend03.png" class="imgW"></a></div>
+                <div class="col-6 d-flex justify-content-center align-items-center"><a href="./fe/halloween"
+                        target="_blank"><img src="./img/work/frontend03.png" class="imgW"></a></div>
             </div>
-            <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=2 style="box-shadow:2px -2px 12px #aaa">
+            <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=2
+                style="box-shadow:2px -2px 12px #aaa">
                 4
             </div>
             <!-- /FRONT -->
@@ -141,34 +156,40 @@
             <!-- BACK-->
             <span class="fsType fs-1 mx-3" data-scroll data-scroll-speed=-2>BACK</span>
             <span class="fsType fs-1 mx-3" data-scroll data-scroll-speed=2>END</span>
-            <div class="col-12 col-sm-6 box d-flex d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=-2>
-                <div class="col-6 d-flex justify-content-center align-items-center"><a href="./be/calendar" target="_blank"><img src="./img/work/backend03.png" class="imgW"></a></div>
+            <div class="col-12 col-sm-6 box d-flex d-flex" data-scroll data-scroll-direction="vertical"
+                data-scroll-speed=-2>
+                <div class="col-6 d-flex justify-content-center align-items-center"><a href="./be/calendar"
+                        target="_blank"><img src="./img/work/backend03.png" class="imgW"></a></div>
                 <div class="col-6 p-5">
                     <h2 class="fsType01 text-end">Calendar</h2>
                     <h4 class="fsType text-end fc-1">USAGE</h4>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 box d-flex d-flex" data-scroll data-scroll-direction="horizontal" data-scroll-speed=2 style="box-shadow:2px -2px 3px #aaa">
-                <div class="col-6 d-flex justify-content-center align-items-center"><img src="./img/work/backend03.png" class="imgW"></div>
+            <div class="col-12 col-sm-6 box d-flex d-flex" data-scroll data-scroll-direction="horizontal"
+                data-scroll-speed=2 style="box-shadow:2px -2px 3px #aaa">
+                <div class="col-6 d-flex justify-content-center align-items-center"><img src="./img/work/backend03.png"
+                        class="imgW"></div>
                 <div class="col-6 p-5">
                     <h2 class="fsType01 text-end">WuBai</h2>
                     <h4 class="fsType text-end fc-1">USAGE</h4>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=2 style="box-shadow:2px -2px 8px #aaa">3</div>
-            <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="horizontal" data-scroll-speed=-2 style="box-shadow:2px -2px 12px #aaa">
+            <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=2
+                style="box-shadow:2px -2px 8px #aaa">3</div>
+            <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="horizontal" data-scroll-speed=-2
+                style="box-shadow:2px -2px 12px #aaa">
                 4
             </div>
             <!-- /BACK-->
         </div>
         <hr style="width:60vw" class="mt-5">
         <div class="row" style="width:100vw;height:100vh">
-        <div class="col">
-            
-        </div>
-        <div class="col m-5 fsType01">
-        <h1 class="text-center fs01">HANNA<br>WANG</h1>
-        </div>
+            <div class="col">
+
+            </div>
+            <div class="col m-5 fsType01">
+                <h1 class="text-center fs01">HANNA<br>WANG</h1>
+            </div>
         </div>
         <hr style="width:60vw" class="mb-5">
         <div class="row p-3 justify-content-center fs-3" style="width:100vw;">
@@ -185,19 +206,20 @@
             <!-- /skill -->
         </div>
         <div class="row p-3 justify-content-center vw-100">
-        <div class="col text-center">
-        <a href="https://github.com/HannaWang003" target="_blank"><i class="fa-brands fa-square-github fa-2xl fs-1" style="color:#7A7469"></i></a>
+            <div class="col text-center">
+                <a href="https://github.com/HannaWang003" target="_blank"><i
+                        class="fa-brands fa-square-github fa-2xl fs-1" style="color:#7A7469"></i></a>
+            </div>
         </div>
-    </div>
-    <script src="./dist/bootstrap.bundle.min.js"></script>
-    <script src="./dist/bootstrap.min.js"></script>
-    <script src="./dist/locomotive-scroll.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-    
+        <script src="./dist/bootstrap.bundle.min.js"></script>
+        <script src="./dist/bootstrap.min.js"></script>
+        <script src="./dist/locomotive-scroll.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 
-    <script>
+
+        <script>
         //locomotiveScroll
         let scroll = new LocomotiveScroll({
             el: document.querySelector("[data-scroll-container]"),
@@ -233,15 +255,17 @@
         }
         let typed = new Typed("#type-container01", head01);
         anime({
-  targets: 'path',
-  strokeDashoffset: [anime.setDashoffset, 0],
-  easing: 'easeInOutSine',
-  duration: 3000,
-  delay: function(el, i) { return i * 250 },
-  direction: 'alternate',
-//   loop: true
-});
-    </script>
+            targets: 'path',
+            strokeDashoffset: [anime.setDashoffset, 0],
+            easing: 'easeInOutSine',
+            duration: 3000,
+            delay: function(el, i) {
+                return i * 250
+            },
+            direction: 'alternate',
+            //   loop: true
+        });
+        </script>
 </body>
 
 </html>
