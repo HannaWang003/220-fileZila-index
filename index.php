@@ -198,6 +198,27 @@ background-size:cover;
             </div>
         </div>
         <hr style="width:60vw" class="mb-5">
+        <div class="row p-3 ">
+        <h2 class="text-start fsType01">Photoshop</h2>
+        <div class='text-start'>
+            <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+            <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+            <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+            <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+            <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+        </div>
+        <h2 class="text-end fsType01">Illustrator</h2>
+        <div class='text-end'>
+        <div class='text-end'>
+        <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+            <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+            <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+            <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+            <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+        </div>
+        </div>
+        </div>
+        <hr>
         <div class="row p-3 justify-content-center fs-3" style="width:100vw;">
             <!-- skill -->
             <span class="fsType text-center" style="font-size:5vw">SKILL</span>
