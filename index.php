@@ -173,8 +173,9 @@ background-size:cover;
             </div>
             <div class="col-12 col-sm-6 box d-flex d-flex" data-scroll data-scroll-direction="horizontal"
                 data-scroll-speed=2 style="box-shadow:2px -2px 3px #aaa">
-                <div class="col-6 d-flex justify-content-center align-items-center"><img src="./img/work/backend03.png"
-                        class="imgW"></div>
+                <div class="col-6 d-flex justify-content-center align-items-center"><a href="./be/wubai"
+                        target="_blank"><img src="./img/work/backend03.png"
+                        class="imgW"></a></div>
                 <div class="col-6 p-5">
                     <h2 class="fsType01 text-end">WuBai</h2>
                     <h4 class="fsType text-end fc-1">USAGE</h4>
