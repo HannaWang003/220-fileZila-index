@@ -50,7 +50,7 @@ body {
 /* test */
 .box {
     border: 1px solid black;
-    height: 60vh;
+    min-height: 60vh;
     background-color: #D9D6CC;
 
 }
@@ -75,7 +75,8 @@ body {
 }
 
 .imgW {
-    width: 20vw;
+    width: 15vw;
+    min-width:100px;
 }
 
 .svgW {
@@ -154,7 +155,27 @@ background-size:cover;
             </div>
             <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=2
                 style="box-shadow:2px -2px 12px #aaa">
-                4
+                <div class="col-8 p-5">
+                    <h2 class="fsType01">weather</h2>
+                    <h4 class="fsType fc-1">USAGE</h4>
+                    <p>Html、css、javascript</p>
+                    <h2>API</h2>
+                    <p>from: unsplash,openweather</p>
+                    <h4>PACKAGE</h4>
+                    <div class="row text-center" style="font-size: clamp(0.8rem, 1.5vh, 1.5rem);">
+                        <div class="col-sm-4 col-12 border border-secondary p-1 m-1">jQuery</div>
+                        <div class="col-sm-4 col-12 border border-secondary p-1 m-1">Bootstrap</div>
+                        <div class="col-sm-4 col-12 border border-secondary p-1 m-1">GoogleFont</div>
+                        <div class="col-sm-4 col-12 border border-secondary p-1 m-1">textillate</div>
+                    </div>
+                </div>
+                <div class="col-4 d-flex justify-content-center align-items-center"><a href="./api/"
+                        target="_blank"><img src="./img/work/frontend03.png" class="imgW"></a></div>
+            </div>
+            <div class="col-12 box d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=2
+                style="box-shadow:2px -2px 12px #aaa">
+                <div class="p-5"><h2 class="fsType01">OTHER</h2></div>
+                
             </div>
             <!-- /FRONT -->
         </div>
@@ -188,6 +209,11 @@ background-size:cover;
                 4
             </div>
             <!-- /BACK-->
+            <div class="col-12 box d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=2
+                style="box-shadow:2px -2px 12px #aaa">
+                <div class="p-5"><h2 class="fsType01">OTHER</h2></div>
+                
+            </div>
         </div>
         <hr style="width:60vw" class="mt-5">
         <div class="row" style="width:100vw;height:100vh;">
