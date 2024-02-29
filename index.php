@@ -76,18 +76,19 @@ body {
 
 .imgW {
     width: 15vw;
-    min-width:100px;
+    min-width: 100px;
 }
 
 .svgW {
     width: 20vw;
 
 }
-.about-lr{
-background:url('./img/about.jpg');
-background-position: center center;
-background-repeat: no-repeat;
-background-size:cover;
+
+.about-lr {
+    background: url('./img/about.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 </style>
 
@@ -130,6 +131,16 @@ background-size:cover;
                 <div class="col-6 p-5">
                     <h2 class="fsType01">CB Coffe</h2>
                     <h4 class="fsType fc-1">USAGE</h4>
+                    <p>Html、css、javascript</p>
+                    <!-- <h2>API</h2> -->
+                    <!-- <p>from: unsplash,openweather</p> -->
+                    <h4>PACKAGE</h4>
+                    <div class="row text-center" style="font-size: clamp(0.8rem, 1.5vh, 1.5rem);">
+                        <div class="col-sm-4 col-12 border border-secondary p-1 m-1">jQuery</div>
+                        <div class="col-sm-4 col-12 border border-secondary p-1 m-1">Bootstrap</div>
+                        <div class="col-sm-4 col-12 border border-secondary p-1 m-1">GoogleFont</div>
+                        <div class="col-sm-4 col-12 border border-secondary p-1 m-1">fontawesome</div>
+                    </div>
                 </div>
                 <div class="col-6 d-flex justify-content-center align-items-center">
                     <a href="./fe/cb-coffe" target="_blank"><img src="./img/work/frontend03.png" class="imgW"></a>
@@ -140,6 +151,14 @@ background-size:cover;
                 <div class="col-6 p-5">
                     <h2 class="fsType01">Zoo</h2>
                     <h4 class="fsType fc-1">USAGE</h4>
+                    <p>Html、css</p>
+                    <h4>PACKAGE</h4>
+                    <div class="row text-center" style="font-size: clamp(0.8rem, 1.5vh, 1.5rem);">
+                        <!-- <div class="col-sm-4 col-12 border border-secondary p-1 m-1">jQuery</div> -->
+                        <div class="col-sm-4 col-12 border border-secondary p-1 m-1">Bootstrap</div>
+                        <div class="col-sm-4 col-12 border border-secondary p-1 m-1">GoogleFont</div>
+                        <div class="col-sm-4 col-12 border border-secondary p-1 m-1">fontawesome</div>
+                    </div>
                 </div>
                 <div class="col-6 d-flex justify-content-center align-items-center"><a href="./fe/zoo"
                         target="_blank"><img src="./img/work/frontend03.png" class="imgW"></a></div>
@@ -149,6 +168,14 @@ background-size:cover;
                 <div class="col-6 p-5">
                     <h2 class="fsType01">Halloween</h2>
                     <h4 class="fsType fc-1">USAGE</h4>
+                    <p>Html、css</p>
+                    <h4>PACKAGE</h4>
+                    <div class="row text-center" style="font-size: clamp(0.8rem, 1.5vh, 1.5rem);">
+                        <!-- <div class="col-sm-4 col-12 border border-secondary p-1 m-1">jQuery</div> -->
+                        <div class="col-sm-4 col-12 border border-secondary p-1 m-1">Bootstrap</div>
+                        <!-- <div class="col-sm-4 col-12 border border-secondary p-1 m-1">GoogleFont</div> -->
+                        <!-- <div class="col-sm-4 col-12 border border-secondary p-1 m-1">AOS</div> -->
+                    </div>
                 </div>
                 <div class="col-6 d-flex justify-content-center align-items-center"><a href="./fe/halloween"
                         target="_blank"><img src="./img/work/frontend03.png" class="imgW"></a></div>
@@ -172,10 +199,31 @@ background-size:cover;
                 <div class="col-4 d-flex justify-content-center align-items-center"><a href="./api/"
                         target="_blank"><img src="./img/work/frontend03.png" class="imgW"></a></div>
             </div>
+            <div class="col-12 col-sm-6 box d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=2
+                style="box-shadow:2px -2px 12px #aaa">
+                <div class="col-8 p-5">
+                    <h2 class="fsType01">Brand.Inc</h2>
+                    <h4 class="fsType fc-1">USAGE</h4>
+                    <p>Html、css、javascript</p>
+                    <!-- <h2>API</h2> -->
+                    <!-- <p>from: unsplash,openweather</p> -->
+                    <h4>PACKAGE</h4>
+                    <div class="row text-center" style="font-size: clamp(0.8rem, 1.5vh, 1.5rem);">
+                        <div class="col-sm-4 col-12 border border-secondary p-1 m-1">jQuery</div>
+                        <div class="col-sm-4 col-12 border border-secondary p-1 m-1">Bootstrap</div>
+                        <div class="col-sm-4 col-12 border border-secondary p-1 m-1">GoogleFont</div>
+                        <div class="col-sm-4 col-12 border border-secondary p-1 m-1">AOS</div>
+                    </div>
+                </div>
+                <div class="col-4 d-flex justify-content-center align-items-center"><a href="./brand/"
+                        target="_blank"><img src="./img/work/frontend03.png" class="imgW"></a></div>
+            </div>
             <div class="col-12 box d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=2
                 style="box-shadow:2px -2px 12px #aaa">
-                <div class="p-5"><h2 class="fsType01">OTHER</h2></div>
-                
+                <div class="p-5">
+                    <h2 class="fsType01">OTHER</h2>
+                </div>
+
             </div>
             <!-- /FRONT -->
         </div>
@@ -195,8 +243,7 @@ background-size:cover;
             <div class="col-12 col-sm-6 box d-flex d-flex" data-scroll data-scroll-direction="horizontal"
                 data-scroll-speed=2 style="box-shadow:2px -2px 3px #aaa">
                 <div class="col-6 d-flex justify-content-center align-items-center"><a href="./be/wubai"
-                        target="_blank"><img src="./img/work/backend03.png"
-                        class="imgW"></a></div>
+                        target="_blank"><img src="./img/work/backend03.png" class="imgW"></a></div>
                 <div class="col-6 p-5">
                     <h2 class="fsType01 text-end">WuBai</h2>
                     <h4 class="fsType text-end fc-1">USAGE</h4>
@@ -211,8 +258,10 @@ background-size:cover;
             <!-- /BACK-->
             <div class="col-12 box d-flex" data-scroll data-scroll-direction="vertical" data-scroll-speed=2
                 style="box-shadow:2px -2px 12px #aaa">
-                <div class="p-5"><h2 class="fsType01">OTHER</h2></div>
-                
+                <div class="p-5">
+                    <h2 class="fsType01">OTHER</h2>
+                </div>
+
             </div>
         </div>
         <hr style="width:60vw" class="mt-5">
@@ -226,24 +275,24 @@ background-size:cover;
         </div>
         <hr style="width:60vw" class="mb-5">
         <div class="row p-3 ">
-        <h2 class="text-start fsType01">Photoshop</h2>
-        <div class='text-start'>
-            <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
-            <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
-            <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
-            <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
-            <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
-        </div>
-        <h2 class="text-end fsType01">Illustrator</h2>
-        <div class='text-end'>
-        <div class='text-end'>
-        <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
-            <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
-            <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
-            <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
-            <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
-        </div>
-        </div>
+            <h2 class="text-start fsType01">Photoshop</h2>
+            <div class='text-start'>
+                <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+                <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+                <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+                <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+                <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+            </div>
+            <h2 class="text-end fsType01">Illustrator</h2>
+            <div class='text-end'>
+                <div class='text-end'>
+                    <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+                    <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+                    <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+                    <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+                    <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+                </div>
+            </div>
         </div>
         <hr>
         <div class="row p-3 justify-content-center fs-3" style="width:100vw;">
@@ -319,9 +368,19 @@ background-size:cover;
             direction: 'alternate',
             //   loop: true
         });
-        let tl=gsap.timeline()
-        tl.from('#thisMe',{x:800,scale:1.5,duration:1,rotation:90,ease: "bounce.out",})
-        tl.from("#thisIs",{duration:1.5,ease: "bounce.out",y: -1000})
+        let tl = gsap.timeline()
+        tl.from('#thisMe', {
+            x: 800,
+            scale: 1.5,
+            duration: 1,
+            rotation: 90,
+            ease: "bounce.out",
+        })
+        tl.from("#thisIs", {
+            duration: 1.5,
+            ease: "bounce.out",
+            y: -1000
+        })
         </script>
 </body>
 
