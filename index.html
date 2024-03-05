@@ -310,22 +310,24 @@ body {
         <div class="row p-3 ">
             <h2 class="text-start fsType01">Photoshop</h2>
             <div class='text-start'>
-                <span class='bg-dark d-inline-block' style='width:200px;height:200px'><img src="./img/003_王女衣媞.png"
+                <span class='border border-dark d-inline-block' style='width:200px;height:200px'>
+                    <!-- <img src="./img/003_ps1.png"
                         style="object-fit:cover;width: 100%;
-                        height: 100%;object-position: center center;"></span>
-                <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
-                <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
-                <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
-                <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+                        height: 100%;object-position: center center;"> -->
+                        </span>
+                <span class='border border-dark d-inline-block' style='width:200px;height:200px' data-scroll data-scroll-direction="vertical" data-scroll-speed=2></span>
+                <span class='border border-dark d-inline-block' style='width:200px;height:200px'></span>
+                <span class='border border-dark d-inline-block' style='width:200px;height:200px' data-scroll data-scroll-direction="vertical" data-scroll-speed=-2></span>
+                <span class='border border-dark d-inline-block' style='width:200px;height:200px'></span>
             </div>
             <h2 class="text-end fsType01">Illustrator</h2>
             <div class='text-end'>
                 <div class='text-end'>
-                    <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
-                    <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
-                    <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
-                    <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
-                    <span class='bg-dark d-inline-block' style='width:100px;height:100px'></span>
+                    <span class='border border-dark d-inline-block' style='width:200px;height:200px'></span>
+                    <span class='border border-dark d-inline-block' style='width:200px;height:200px' data-scroll data-scroll-direction="vertical" data-scroll-speed=2></span>
+                    <span class='border border-dark d-inline-block' style='width:200px;height:200px'></span>
+                    <span class='border border-dark d-inline-block' style='width:200px;height:200px' data-scroll data-scroll-direction="vertical" data-scroll-speed=-2></span>
+                    <span class='border border-dark d-inline-block' style='width:200px;height:200px'></span>
                 </div>
             </div>
         </div>
@@ -351,6 +353,7 @@ body {
                         class="fa-brands fa-square-github fa-2xl fs-1" style="color:#7A7469"></i></a>
             </div>
         </div>
+     
         <script src="./dist/bootstrap.bundle.min.js"></script>
         <script src="./dist/bootstrap.min.js"></script>
         <script src="./dist/locomotive-scroll.min.js"></script>
@@ -360,6 +363,8 @@ body {
 
 
         <script>
+
+
         //locomotiveScroll
         let scroll = new LocomotiveScroll({
             el: document.querySelector("[data-scroll-container]"),
